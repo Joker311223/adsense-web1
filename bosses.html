@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Clair Obscur Expedition 33 boss guide — strategies, phase breakdowns, and party compositions for every boss fight including the Paintress." />
+  <meta name="keywords" content="Clair Obscur Expedition 33 bosses, Paintress boss guide, boss strategies, how to beat bosses" />
+  <title>Boss Strategies — Clair Obscur: Expedition 33 Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Google AdSense -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-icon">⚔</span>
+        <span>Expedition <span class="accent">33</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="walkthrough.html">Walkthrough</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="bosses.html" class="active">Bosses</a></li>
+        <li><a href="tips.html">Tips & Secrets</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <p class="section-label">Combat Guide</p>
+      <h1>Boss Strategies</h1>
+      <p>Detailed phase-by-phase breakdowns for every boss in Expedition 33 — from the first Warden to the Paintress herself.</p>
+    </div>
+  </section>
+
+  <!-- AD SLOT: Top Banner -->
+  <div class="ad-container ad-banner">
+    <div class="ad-label">Advertisement</div>
+    <div class="ad-placeholder">[ Advertisement ]</div>
+  </div>
+
+  <div class="container content-layout">
+    <div class="content-with-sidebar">
+
+      <article class="article-content">
+
+        <h2 id="overview">Before You Fight</h2>
+        <p>Every boss in Expedition 33 is designed to test a specific aspect of the combat system. Understanding <em>what</em> a boss tests before going in will significantly reduce the number of failed attempts.</p>
+        <ul>
+          <li><strong>White flash = Parry</strong>. Red glow = Dodge. Learn to distinguish immediately.</li>
+          <li>Always check boss weaknesses with Lune's <strong>Analyze</strong> before committing to a damage strategy.</li>
+          <li>Keep at least one <strong>Hi-Restore</strong> and one <strong>Phoenix Essence</strong> in reserve per fight.</li>
+          <li>If a boss kills you, lower the difficulty one level, win, then raise it back. No shame in it.</li>
+        </ul>
+
+        <div class="tip-box">
+          <div class="tip-box-title">💡 General Boss Strategy</div>
+          <p>Most bosses have a "punishment phase" triggered when you take too long. Prioritize dealing consistent damage over perfect play — sometimes an aggressive burst at 40% HP ends a fight before phase 3 even begins.</p>
+        </div>
+
+        <!-- BOSS 1 -->
+        <div class="boss-card" id="warden">
+          <div class="boss-header">
+            <span class="boss-icon">🔒</span>
+            <div>
+              <h3>Warden of Lines</h3>
+              <div class="boss-meta">
+                <span class="boss-tag difficulty-easy">Easy</span>
+                <span class="boss-tag location">Ivory Spire — Chapter 2</span>
+              </div>
+            </div>
+          </div>
+          <div class="boss-body">
+            <p>The first major boss. The Warden is essentially a tutorial fight designed to test whether you've internalized the parry and weakness systems.</p>
+
+            <h3>Recommended Party</h3>
+            <p>Gustave (DPS/Parry) + Maelle (elemental) + Lune (healing/buff) — Level 8+ recommended</p>
+
+            <div class="boss-phases">
+              <div class="boss-phase">
+                <h5>Phase 1 (100%–50% HP)</h5>
+                <p>Slow, telegraphed attacks. All attacks show white parry windows. Practice your parry timing here — it's very forgiving. Deal steady damage with physical attacks.</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 2 (50%–0% HP)</h5>
+                <p>Gains a charged laser attack — <strong>Prismatic Beam</strong>. This shows as RED and cannot be parried. Dodge left when you see it charge. Use Maelle's barrier if you miss the dodge.</p>
+              </div>
+            </div>
+
+            <h3>Key Weaknesses</h3>
+            <ul>
+              <li>Elemental (any element works) — 150% damage</li>
+              <li>No resistances in Phase 1</li>
+            </ul>
+
+            <h3>Rewards</h3>
+            <p>Warden's Fragment (key item for upgrading Gustave's sword), 1,200 EXP, 3 Chromatic Shards</p>
+          </div>
+        </div>
+
+        <!-- BOSS 2 -->
+        <div class="boss-card" id="specter">
+          <div class="boss-header">
+            <span class="boss-icon">👻</span>
+            <div>
+              <h3>The Specter of Expedition 17</h3>
+              <div class="boss-meta">
+                <span class="boss-tag difficulty-medium">Medium</span>
+                <span class="boss-tag location">Brushwork Catacombs — Chapter 4</span>
+              </div>
+            </div>
+          </div>
+          <div class="boss-body">
+            <p>A haunting encounter with the echoes of a previous failed expedition. This boss introduces <strong>mirror mechanics</strong> — hitting the Specter while it's mirroring reduces your own party's HP.</p>
+
+            <h3>Recommended Party</h3>
+            <p>Gustave (parry tank) + Maelle (elemental burst) + Lune (sustained heals) — Level 15+ recommended</p>
+
+            <div class="boss-phases">
+              <div class="boss-phase">
+                <h5>Phase 1 (100%–70%)</h5>
+                <p>Basic attacks. Focus on learning its attack patterns. The Specter has a tell before using its mirror — a brief shimmer. Stop attacking immediately when you see this.</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 2 (70%–40%)</h5>
+                <p>Introduces "Echo Strike" — copies your last used skill and uses it on the party. Do NOT use AoE skills here. Stick to single-target abilities.</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 3 (40%–0%)</h5>
+                <p>Full mirror mode. Only damage it during the 3-second window after it completes an Echo Strike. Maelle's Prismatic Arrow is perfect here — fast and high damage.</p>
+              </div>
+            </div>
+
+            <h3>Key Weaknesses</h3>
+            <ul>
+              <li>Light magic — 200% damage</li>
+              <li>Immune to physical during mirror phase</li>
+            </ul>
+
+            <h3>Rewards</h3>
+            <p>Ghostly Essence x3, Expedition 17's Relic (key lore item), 4,800 EXP</p>
+          </div>
+        </div>
+
+        <!-- AD SLOT: Mid-Article -->
+        <div class="ad-container ad-rectangle" style="margin: 40px 0; border: none; background: none; padding: 0;">
+          <div class="ad-label">Advertisement</div>
+          <div class="ad-placeholder">[ Advertisement ]</div>
+        </div>
+
+        <!-- BOSS 3 -->
+        <div class="boss-card" id="colossus">
+          <div class="boss-header">
+            <span class="boss-icon">🗿</span>
+            <div>
+              <h3>The Painted Colossus</h3>
+              <div class="boss-meta">
+                <span class="boss-tag difficulty-hard">Hard</span>
+                <span class="boss-tag location">Edge of the Canvas — Chapter 5</span>
+              </div>
+            </div>
+          </div>
+          <div class="boss-body">
+            <p>The wake-up call boss. The Painted Colossus is a massive construct that punishes passive play. You must deal damage aggressively to prevent it from triggering its <strong>Erasure Slam</strong> — an instant-kill party wipe if it charges for more than 3 turns.</p>
+
+            <h3>Recommended Party</h3>
+            <p>Maelle (Chromatic Burst build) + Verso (Shadow Predator) + Lune (speed buffs) — Level 22+ required</p>
+
+            <div class="boss-phases">
+              <div class="boss-phase">
+                <h5>Phase 1 (100%–60%)</h5>
+                <p>Three attacks per turn. All are parryable. Focus on maximizing damage — each turn it goes without taking significant damage, it gains a "Charge" stack. At 5 stacks, it uses Erasure Slam.</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 2 (60%–30%)</h5>
+                <p>Now 4 attacks per turn and gains a new red dodge attack — "Ground Sweep." Position matters: dodge toward the boss, not away. New weakness: ice magic (250% damage).</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 3 (30%–0%)</h5>
+                <p>Goes berserk. All attacks become red (dodge only). This is a damage race — use all saved AP and ultimate abilities to end the fight before it uses Erasure Slam.</p>
+              </div>
+            </div>
+
+            <div class="warning-box">
+              <div class="tip-box-title">⚠️ Danger</div>
+              <p>Erasure Slam deals 9,999 damage to all party members. There is NO surviving this — your only option is prevention. Keep damaging the boss every turn to reset the charge counter.</p>
+            </div>
+
+            <h3>Rewards</h3>
+            <p>Colossus Fragment (crafts unique armor), 11,000 EXP, Verso's Shadow Stone (boosts Eclipse damage by 25%)</p>
+          </div>
+        </div>
+
+        <!-- SECRET BOSSES -->
+        <h2 id="secret">Optional & Secret Bosses</h2>
+        <p>Four hidden "Phantom Bosses" exist in Expedition 33. Defeating all four is required for the true ending. They are among the hardest encounters in the game.</p>
+
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-icon">🌑</span>
+            <div>
+              <h3>Phantom of the Forgotten Brushstroke</h3>
+              <div class="boss-meta">
+                <span class="boss-tag difficulty-hard">Very Hard</span>
+                <span class="boss-tag location">Secret — Painted Wastes Northwest</span>
+              </div>
+            </div>
+          </div>
+          <div class="boss-body">
+            <p><strong>How to unlock:</strong> In Chapter 2, instead of following the main path, head northwest from the first campfire. A hidden path between two large red-painted stones leads to an ancient altar. Interact with it and offer 3 Chromatic Shards to summon the Phantom.</p>
+
+            <h3>Recommended Party</h3>
+            <p>Verso (max speed build) + Maelle (ice elemental) + Lune (dispel support) — Level 28+ strongly recommended</p>
+
+            <div class="boss-phases">
+              <div class="boss-phase">
+                <h5>Phase 1</h5>
+                <p>Applies a "Painted Curse" to one party member each turn. Cursed members take 50% increased damage. Lune must dispel immediately every turn.</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 2 (&lt;40% HP)</h5>
+                <p>Curses ALL party members simultaneously. This is the burst window — use all remaining AP and ultimates. You have ~2 turns before it becomes unmanageable.</p>
+              </div>
+            </div>
+
+            <h3>Rewards</h3>
+            <p>Phantom Shard (1/4 for true ending requirement), Forgotten Brushstroke Accessory (+30% to all painted skills), 25,000 EXP</p>
+          </div>
+        </div>
+
+        <!-- FINAL BOSS -->
+        <h2 id="paintress">Final Boss — The Paintress</h2>
+        <p>The culmination of everything. The Paintress fight is a 4-phase masterpiece of game design that tests your mastery of every mechanic introduced across the game.</p>
+        <p><strong>Warning: Heavy spoilers below.</strong></p>
+
+        <div class="warning-box">
+          <div class="tip-box-title">⚠️ Pre-Fight Requirements</div>
+          <p>Ensure all party members are Level 30+, you have 10+ Hi-Restores, 5+ Phoenix Essences, and all ultimate abilities are unlocked. Do NOT enter this fight underleveled.</p>
+        </div>
+
+        <div class="boss-card">
+          <div class="boss-header">
+            <span class="boss-icon">🎨</span>
+            <div>
+              <h3>The Paintress</h3>
+              <div class="boss-meta">
+                <span class="boss-tag difficulty-hard">Final Boss</span>
+                <span class="boss-tag location">The Paintress's Sanctum — Chapter 7</span>
+              </div>
+            </div>
+          </div>
+          <div class="boss-body">
+
+            <h3>Recommended Party</h3>
+            <p>Maelle (Chromatic Burst) + Verso (Shadow Predator) + Lune (Radiant Dawn) — Level 30 required</p>
+
+            <div class="boss-phases">
+              <div class="boss-phase">
+                <h5>Phase 1 — "First Brushstroke"</h5>
+                <p>She establishes a painting zone. Standing in colored zones deals elemental damage over time. Move your party strategically. All attacks are parryable. Test her elemental weaknesses with Maelle.</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 2 — "Artist's Fury"</h5>
+                <p>The canvas becomes active — it mimics the party's last 3 actions. She also gains "Painted Invincibility" briefly after each of her turns. Only attack during your own turns when she's vulnerable.</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 3 — "The True Canvas"</h5>
+                <p>She reveals her true form. All previous mechanics combine. She now has 4 actions per turn, mixes parryable and dodge attacks randomly each turn, and the canvas shifts every 2 turns. This is the hardest phase in the game.</p>
+              </div>
+              <div class="boss-phase">
+                <h5>Phase 4 — "Final Stroke" (True Ending Only)</h5>
+                <p>Only triggers if you have all 4 Phantom Shards. She becomes vulnerable to light magic for the first time. Lune deals catastrophic damage here. Use everything you have left.</p>
+              </div>
+            </div>
+
+            <div class="tip-box">
+              <div class="tip-box-title">💡 The Secret to Winning</div>
+              <p>In Phase 3, pattern recognition is everything. She cycles through 6 attack patterns in a set order — once you identify them (usually by attempt 3-4), you'll know exactly what to parry and when to dodge. Don't panic. Stay calm.</p>
+            </div>
+
+            <h3>Rewards</h3>
+            <p>Credits roll. True ending epilogue. New Game+ unlocked. "Survivor of 33" achievement. The Paintress's Palette (strongest accessory in the game, NG+ only).</p>
+          </div>
+        </div>
+
+      </article>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="sidebar-card">
+          <h4>👹 Boss List</h4>
+          <nav class="sidebar-nav">
+            <a href="#overview">Combat Overview</a>
+            <a href="#warden">Warden of Lines</a>
+            <a href="#specter">Specter of Exp. 17</a>
+            <a href="#colossus">Painted Colossus</a>
+            <a href="#secret">Secret Bosses</a>
+            <a href="#paintress">Final Boss: Paintress</a>
+          </nav>
+        </div>
+
+        <!-- AD: Sidebar -->
+        <div class="ad-container" style="border-radius: 12px; overflow: hidden; padding: 16px;">
+          <div class="ad-label">Advertisement</div>
+          <div class="ad-placeholder" style="min-height: 250px; border-radius: 8px; display: flex; align-items: center; justify-content: center; border: 1px dashed rgba(255,255,255,0.08); color: #5d5872; font-size: 0.85rem;">[ Advertisement ]</div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>Difficulty Legend</h4>
+          <div style="display:flex;flex-direction:column;gap:8px;margin-top:4px;">
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="boss-tag difficulty-easy" style="font-size:0.7rem;">Easy</span>
+              <span style="color:var(--text-secondary);font-size:0.85rem;">Beginner-friendly</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="boss-tag difficulty-medium" style="font-size:0.7rem;">Medium</span>
+              <span style="color:var(--text-secondary);font-size:0.85rem;">Requires focus</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="boss-tag difficulty-hard" style="font-size:0.7rem;">Hard</span>
+              <span style="color:var(--text-secondary);font-size:0.85rem;">Master-level play</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <h4>🔗 More Guides</h4>
+          <nav class="sidebar-nav">
+            <a href="characters.html#builds">Best Builds</a>
+            <a href="tips.html#parry">Parry Guide</a>
+            <a href="tips.html#equipment">Equipment Guide</a>
+            <a href="walkthrough.html">Full Walkthrough</a>
+          </nav>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- AD SLOT: Bottom Banner -->
+  <div class="ad-container ad-banner">
+    <div class="ad-label">Advertisement</div>
+    <div class="ad-placeholder">[ Advertisement ]</div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-icon">⚔</span>
+            <span>Expedition <span class="accent">33</span></span>
+          </a>
+          <p>Your ultimate fan-made guide for Clair Obscur: Expedition 33. Not affiliated with Sandfall Interactive or Kepler Interactive.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Guide Sections</h5>
+          <ul>
+            <li><a href="walkthrough.html">Full Walkthrough</a></li>
+            <li><a href="characters.html">Characters & Builds</a></li>
+            <li><a href="bosses.html">Boss Strategies</a></li>
+            <li><a href="tips.html">Tips & Secrets</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="tips.html#beginners">Beginner's Guide</a></li>
+            <li><a href="characters.html#builds">Best Builds</a></li>
+            <li><a href="#paintress">Final Boss Guide</a></li>
+            <li><a href="tips.html#trophies">Trophy Guide</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Expedition33Guide.com — Fan-made guide. All game content belongs to Sandfall Interactive.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
